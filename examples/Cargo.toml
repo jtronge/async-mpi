@@ -1,0 +1,8 @@
+[package]
+name = "async-mpi-examples"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "hello-world"
+path = "hello-world.rs"
