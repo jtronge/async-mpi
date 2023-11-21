@@ -1,5 +1,6 @@
 [workspace]
 members = [
-    "examples"
+    "async-mpi",
+    "examples",
 ]
 resolver = "2"

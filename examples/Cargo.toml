@@ -4,5 +4,25 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "hello-world"
-path = "hello-world.rs"
+name = "hello_world"
+path = "hello_world.rs"
+
+[[bin]]
+name = "ring"
+path = "ring.rs"
+
+[[bin]]
+name = "bw"
+path = "bw.rs"
+
+[[bin]]
+name = "bcast"
+path = "bcast.rs"
+
+[[bin]]
+name = "scatter_gather"
+path = "scatter_gather.rs"
+
+[dependencies]
+async-mpi = { path = "../async-mpi" }
+futures = "0.3.29"
